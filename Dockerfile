@@ -1,3 +1,3 @@
 FROM nginx
 
-RUN . /usr/www/index.html/
+RUN . /usr/local/apache2/htdocs/
