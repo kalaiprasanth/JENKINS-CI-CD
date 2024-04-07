@@ -1,3 +1,3 @@
-FROM nginx
+FROM httpd
 
-RUN . /usr/share/nginx/html/
+RUN . /usr/local/apache2/htdocs/
